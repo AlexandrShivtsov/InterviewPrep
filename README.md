@@ -1,2 +1,2 @@
 # InterviewPrep
-Зlatform for preparing for interviews
+Platform for preparing for interviews

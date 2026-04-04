@@ -351,3 +351,5 @@ yarn-error.log*
 # ІНФРАСТРУКТУРА (Docker / CI)
 # ==========================================
 .docker/
+# Windows Metadata
+*:Zone.Identifier

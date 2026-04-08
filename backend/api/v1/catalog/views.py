@@ -26,7 +26,7 @@ class CategoryListView(generics.ListAPIView):
             context['tech'] = None
         return context
     
-
+# This view is used to get the list of technologies for the dropdown in the frontend
 class TechListView(generics.ListAPIView):
     queryset = Category.objects.all()
     serializer_class = TechListSerializer

@@ -4,6 +4,6 @@ from . import views
 
 
 urlpatterns = [
-    path('categories/', views.CategoryListView.as_view(), name='category-list-create'),
-    path('techs/', views.TechListView.as_view(), name='tech-list-create'),
+    # path('categories/', views.CategoryListView.as_view(), name='category-list-create'),
+    path('techs/', views.TechListView.as_view(), name='tech-list'), # show all techs which have questions
 ]

@@ -4,5 +4,5 @@ from . import views
 
 
 urlpatterns = [
-    path('categories/<int:tech_id>/', views.CategoryQuestionsListView.as_view(), name='category-questions-list'),
+    path('tech-questions/', views.CategoryQuestionsListView.as_view(), name='tech-questions-list'), # show all questions for a specific category (tech_id)
 ]

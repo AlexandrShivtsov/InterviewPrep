@@ -20,4 +20,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('catalog/', include('api.v1.catalog.urls')),
+    path('questions/', include('api.v1.questions.urls')),
+    path('quiz/', include('api.v1.quiz.urls')),
 ]

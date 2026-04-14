@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     'api',
     'catalog',
     'questions',
+    'quiz',
 ]
 
 MIDDLEWARE = [
